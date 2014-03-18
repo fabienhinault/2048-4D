@@ -32,10 +32,11 @@ KeyboardInputManager.prototype.listen = function () {
     76: 1,
     74: 2,
     72: 3,
-    87: 4, // W
+    // french keyboard keys
+    90: 4, // Z // W 
     68: 5, // D
     83: 6, // S
-    65: 7  // A
+    81: 7  // Q //A
   };
 
   document.addEventListener("keydown", function (event) {
